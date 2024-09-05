@@ -27,6 +27,9 @@
                 <x-sidebar-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" icon="heroicon-o-home" wire:navigate>
                     Dashboard
                 </x-sidebar-nav-link>
+                <x-sidebar-nav-link :href="route('profile')" :active="request()->routeIs('profile')" icon="heroicon-o-user" wire:navigate>
+                    Profile
+                </x-sidebar-nav-link>
                 <x-sidebar-nav-group label="Group" :active="false" icon="heroicon-o-rectangle-stack">
                     <x-sidebar-nav-link href="#">
                         Link 1

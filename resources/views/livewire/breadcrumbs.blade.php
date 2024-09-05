@@ -7,7 +7,8 @@ new class extends Component
 
     public array $breadcrumbItems;
     public array $teleportLocations = [
-        '.mobile-breadcrumbs'
+        '.mobile-breadcrumbs',
+        '.header-breadcrumbs'
     ];
 }; ?>
 
